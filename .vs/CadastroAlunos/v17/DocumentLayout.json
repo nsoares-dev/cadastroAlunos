@@ -1,0 +1,103 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\ASP MVC\\CadastroAlunos\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{00A765FF-2ACF-499F-AF98-F5473808ADA4}|CadastroAlunos\\CadastroAlunos.csproj|d:\\asp mvc\\cadastroalunos\\cadastroalunos\\views\\alunos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00A765FF-2ACF-499F-AF98-F5473808ADA4}|CadastroAlunos\\CadastroAlunos.csproj|solutionrelative:cadastroalunos\\views\\alunos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00A765FF-2ACF-499F-AF98-F5473808ADA4}|CadastroAlunos\\CadastroAlunos.csproj|d:\\asp mvc\\cadastroalunos\\cadastroalunos\\controllers\\alunoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00A765FF-2ACF-499F-AF98-F5473808ADA4}|CadastroAlunos\\CadastroAlunos.csproj|solutionrelative:cadastroalunos\\controllers\\alunoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00A765FF-2ACF-499F-AF98-F5473808ADA4}|CadastroAlunos\\CadastroAlunos.csproj|d:\\asp mvc\\cadastroalunos\\cadastroalunos\\models\\alunos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00A765FF-2ACF-499F-AF98-F5473808ADA4}|CadastroAlunos\\CadastroAlunos.csproj|solutionrelative:cadastroalunos\\models\\alunos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00A765FF-2ACF-499F-AF98-F5473808ADA4}|CadastroAlunos\\CadastroAlunos.csproj|d:\\asp mvc\\cadastroalunos\\cadastroalunos\\views\\alunos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00A765FF-2ACF-499F-AF98-F5473808ADA4}|CadastroAlunos\\CadastroAlunos.csproj|solutionrelative:cadastroalunos\\views\\alunos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00A765FF-2ACF-499F-AF98-F5473808ADA4}|CadastroAlunos\\CadastroAlunos.csproj|d:\\asp mvc\\cadastroalunos\\cadastroalunos\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00A765FF-2ACF-499F-AF98-F5473808ADA4}|CadastroAlunos\\CadastroAlunos.csproj|solutionrelative:cadastroalunos\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\ASP MVC\\CadastroAlunos\\CadastroAlunos\\Views\\Alunos\\Index.cshtml",
+              "RelativeDocumentMoniker": "CadastroAlunos\\Views\\Alunos\\Index.cshtml",
+              "ToolTip": "D:\\ASP MVC\\CadastroAlunos\\CadastroAlunos\\Views\\Alunos\\Index.cshtml",
+              "RelativeToolTip": "CadastroAlunos\\Views\\Alunos\\Index.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABAAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-19T16:45:21.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\ASP MVC\\CadastroAlunos\\CadastroAlunos\\Views\\Alunos\\Create.cshtml",
+              "RelativeDocumentMoniker": "CadastroAlunos\\Views\\Alunos\\Create.cshtml",
+              "ToolTip": "D:\\ASP MVC\\CadastroAlunos\\CadastroAlunos\\Views\\Alunos\\Create.cshtml",
+              "RelativeToolTip": "CadastroAlunos\\Views\\Alunos\\Create.cshtml",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAADEAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-19T16:41:54.641Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\ASP MVC\\CadastroAlunos\\CadastroAlunos\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "CadastroAlunos\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\ASP MVC\\CadastroAlunos\\CadastroAlunos\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "CadastroAlunos\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-19T16:36:15.338Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AlunosController.cs",
+              "DocumentMoniker": "D:\\ASP MVC\\CadastroAlunos\\CadastroAlunos\\Controllers\\AlunosController.cs",
+              "RelativeDocumentMoniker": "CadastroAlunos\\Controllers\\AlunosController.cs",
+              "ToolTip": "D:\\ASP MVC\\CadastroAlunos\\CadastroAlunos\\Controllers\\AlunosController.cs",
+              "RelativeToolTip": "CadastroAlunos\\Controllers\\AlunosController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAACIAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T16:28:11.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Alunos.cs",
+              "DocumentMoniker": "D:\\ASP MVC\\CadastroAlunos\\CadastroAlunos\\Models\\Alunos.cs",
+              "RelativeDocumentMoniker": "CadastroAlunos\\Models\\Alunos.cs",
+              "ToolTip": "D:\\ASP MVC\\CadastroAlunos\\CadastroAlunos\\Models\\Alunos.cs",
+              "RelativeToolTip": "CadastroAlunos\\Models\\Alunos.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAgwBQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T16:01:23.974Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+﻿@model IEnumerable<CadastroAlunos.Models.Alunos>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Alunos</h1>
+
+
+
+<p>
+    <a asp-action="Create" class="btn btn-sm btn-primary">Cadastrar novo aluno</a>
+</p>
+
+<form asp-controller="Alunos" asp-action="Index">
+
+    <label class="label-control">Nome: </label>
+    <input type="text" name="searchFiltro" />
+    <input type="submit" value="Filtrar" />
+
+</form>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.NomeAluno)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DataNascimento)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Idade)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Curso)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Turma)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TelefoneAluno)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.EmailAluno)
+            </th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NomeAluno)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DataNascimento)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Idade)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Curso)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Turma)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TelefoneAluno)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.EmailAluno)
+                </td>
+                <td>
+                    <a class="btn btn-sm btn-warning mr-2" asp-action="Edit" asp-route-id="@item.AlunosId">Editar</a>
+                    <a class="btn btn-sm btn-info mr-2" asp-action="Details" asp-route-id="@item.AlunosId">Detalhes</a>
+                    <a class="btn btn-sm btn-danger justify-content-around" asp-action="Delete" asp-route-id="@item.AlunosId">Excluir</a>
+                </td>
+                <th></th>
+                <th></th>
+                <th></th>
+            </tr>
+        }
+    </tbody>
+</table>

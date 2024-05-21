@@ -1,0 +1,63 @@
+﻿@model CadastroAlunos.Models.Alunos
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Cadastrar Alunos</h1>
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="NomeAluno" class="control-label"></label>
+                <input asp-for="NomeAluno" class="form-control" />
+                <span asp-validation-for="NomeAluno" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DataNascimento" class="control-label"></label>
+                <input asp-for="DataNascimento" class="form-control" />
+                <span asp-validation-for="DataNascimento" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Idade" class="control-label"></label>
+                <input asp-for="Idade" class="form-control" />
+                <span asp-validation-for="Idade" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Curso" class="control-label"></label>
+                <input asp-for="Curso" class="form-control" />
+                <span asp-validation-for="Curso" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Turma" class="control-label"></label>
+                <input asp-for="Turma" class="form-control" />
+                <span asp-validation-for="Turma" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TelefoneAluno" class="control-label"></label>
+                <input asp-for="TelefoneAluno" class="form-control" />
+                <span asp-validation-for="TelefoneAluno" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="EmailAluno" class="control-label"></label>
+                <input asp-for="EmailAluno" class="form-control" />
+                <span asp-validation-for="EmailAluno" class="text-danger"></span>
+            </div>
+            <div class="form-group mt-2">
+                <input type="submit" value="Cadastrar" class="btn btn-primary" />
+                <a class="btn btn-secondary" asp-action="Index">Voltar</a>
+
+            </div>
+
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
