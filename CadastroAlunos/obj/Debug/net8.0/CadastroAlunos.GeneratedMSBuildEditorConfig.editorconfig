@@ -26,24 +26,24 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\ASP MVC\CadastroAlunos\CadastroAlunos
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/ASP MVC/CadastroAlunos/CadastroAlunos/Views/Alunos/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWx1bm9zXENyZWF0ZS5jc2h0bWw=
+[D:/ASP MVC/CadastroAlunos/CadastroAlunos/Views/Administrators/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYXRvcnNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ASP MVC/CadastroAlunos/CadastroAlunos/Views/Alunos/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWx1bm9zXERlbGV0ZS5jc2h0bWw=
+[D:/ASP MVC/CadastroAlunos/CadastroAlunos/Views/Administrators/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYXRvcnNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ASP MVC/CadastroAlunos/CadastroAlunos/Views/Alunos/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWx1bm9zXERldGFpbHMuY3NodG1s
+[D:/ASP MVC/CadastroAlunos/CadastroAlunos/Views/Administrators/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYXRvcnNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ASP MVC/CadastroAlunos/CadastroAlunos/Views/Alunos/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWx1bm9zXEVkaXQuY3NodG1s
+[D:/ASP MVC/CadastroAlunos/CadastroAlunos/Views/Administrators/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYXRvcnNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ASP MVC/CadastroAlunos/CadastroAlunos/Views/Alunos/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWx1bm9zXEluZGV4LmNzaHRtbA==
+[D:/ASP MVC/CadastroAlunos/CadastroAlunos/Views/Administrators/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYXRvcnNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/ASP MVC/CadastroAlunos/CadastroAlunos/Views/Home/Index.cshtml]

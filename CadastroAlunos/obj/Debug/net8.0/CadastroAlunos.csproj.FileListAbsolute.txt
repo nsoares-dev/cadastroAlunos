@@ -250,3 +250,4 @@ D:\ASP MVC\CadastroAlunos\CadastroAlunos\obj\Debug\net8.0\refint\CadastroAlunos.
 D:\ASP MVC\CadastroAlunos\CadastroAlunos\obj\Debug\net8.0\CadastroAlunos.pdb
 D:\ASP MVC\CadastroAlunos\CadastroAlunos\obj\Debug\net8.0\CadastroAlunos.genruntimeconfig.cache
 D:\ASP MVC\CadastroAlunos\CadastroAlunos\obj\Debug\net8.0\ref\CadastroAlunos.dll
+D:\ASP MVC\CadastroAlunos\CadastroAlunos\obj\Debug\net8.0\CadastroAlunos.sourcelink.json

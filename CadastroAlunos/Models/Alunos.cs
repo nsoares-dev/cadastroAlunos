@@ -14,10 +14,9 @@ namespace CadastroAlunos.Models
         [MinLength(4, ErrorMessage = "Por favor, informe seu nome.")]
         public string? NomeAluno { get; set; }
 
-        [Required(ErrorMessage = "Informe sua Data de Nascimento")]
-        [DisplayName("Data de Nascimento")]
-        [DataType(DataType.DateTime)]
-        public DateTime DataNascimento { get; set; }
+        [Required(ErrorMessage = "Informe seu dia de pagamento")]
+        [DisplayName("Data de pagamento")]
+        public string? DiaPgto { get; set; }
 
         [Range(16,99)]
         public int Idade { get; set; }
@@ -27,6 +26,7 @@ namespace CadastroAlunos.Models
         public string? Curso { get; set; }
         [Required(ErrorMessage = "Informe sua turma;")]
         public string? Turma { get; set; }
+        public decimal ValorMensal { get; set; }
 
         [Required(ErrorMessage = "Informe seu telefone para nós possamos entrar em contato, se necessário.")]
         [DisplayName("Telefone")]

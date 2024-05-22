@@ -1,27 +1,26 @@
 ﻿@model CadastroAlunos.Models.Alunos
 
 @{
-    ViewData["Title"] = "Edit";
+    ViewData["Title"] = "Create";
 }
 
-<h1>Editando dados do Aluno @Html.DisplayFor(model => model.NomeAluno)</h1>
+<h1>Create</h1>
 
 <h4>Alunos</h4>
 <hr />
 <div class="row">
     <div class="col-md-4">
-        <form asp-action="Edit">
+        <form asp-action="Create">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <input type="hidden" asp-for="AlunosId" />
             <div class="form-group">
                 <label asp-for="NomeAluno" class="control-label"></label>
                 <input asp-for="NomeAluno" class="form-control" />
                 <span asp-validation-for="NomeAluno" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="DataNascimento" class="control-label"></label>
-                <input asp-for="DataNascimento" class="form-control" />
-                <span asp-validation-for="DataNascimento" class="text-danger"></span>
+                <label asp-for="DiaPgto" class="control-label"></label>
+                <input asp-for="DiaPgto" class="form-control" />
+                <span asp-validation-for="DiaPgto" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="Idade" class="control-label"></label>
@@ -39,6 +38,11 @@
                 <span asp-validation-for="Turma" class="text-danger"></span>
             </div>
             <div class="form-group">
+                <label asp-for="ValorMensal" class="control-label"></label>
+                <input asp-for="ValorMensal" class="form-control" />
+                <span asp-validation-for="ValorMensal" class="text-danger"></span>
+            </div>
+            <div class="form-group">
                 <label asp-for="TelefoneAluno" class="control-label"></label>
                 <input asp-for="TelefoneAluno" class="form-control" />
                 <span asp-validation-for="TelefoneAluno" class="text-danger"></span>
@@ -48,17 +52,17 @@
                 <input asp-for="EmailAluno" class="form-control" />
                 <span asp-validation-for="EmailAluno" class="text-danger"></span>
             </div>
-            <div class="form-group mt-2">
-                <input type="submit" value="Salvar" class="btn btn-primary" />
-                <a asp-action="Index" class="btn btn-secondary">Voltar</a>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
             </div>
         </form>
     </div>
 </div>
 
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
 
 @section Scripts {
-    @{
-        await Html.RenderPartialAsync("_ValidationScriptsPartial");
-    }
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
 }
